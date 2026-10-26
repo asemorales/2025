@@ -3,7 +3,7 @@ tagline: Research Software Engineer
 email: hi@asemorales.com
 description: Research software engineer bridging complexity, computability, and cognition.
 baseurl: ""
-url: "https://asemorales.com"
+url: "https://asemorales.com/2025"
 author: Ase Morales
 social:
   name: Ase Morales
@@ -40,6 +40,21 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+# Jekyll 3 replaces its default exclude list, so the defaults are repeated here.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
+  - README.md
+  - LICENSE.md
+  - assets/images/header.xcf
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
